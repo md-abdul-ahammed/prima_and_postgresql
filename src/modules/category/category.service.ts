@@ -7,7 +7,7 @@ const insertIntoDb = async (data: Category): Promise<Category> => {
     data,
   });
 
-  return data;
+  return result;
 };
 
 export const CategoryService = {

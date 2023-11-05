@@ -2,7 +2,7 @@ import express, { Application } from "express";
 import cors from "cors";
 import { userRoutes } from "./modules/user/user.route";
 import { CategoryRoutes } from "./modules/category/category.route";
-import { PostRoutes } from "./modules/category/post/post.route";
+import { PostRoutes } from "./modules/post/post.route";
 
 const app: Application = express();
 
